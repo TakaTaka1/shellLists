@@ -1,0 +1,8 @@
+・文字数が何個あるかのカウント
+grep -o your search words filename | wc -l
+
+・検索文字を全出力
+grep -o your search words filename
+
+・行を出力する
+sed -n '1p' shellLists.txt
